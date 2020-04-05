@@ -12,6 +12,21 @@ src
     webpack.config.js   // 项目打包配置文件，可以把模板项目林立的通用打包配置
 
 npm install -g freedom-dog-cli 全局安装脚本
+
+创建项目
+~~~
 freedom-dog-cli create ProjectName(项目名称)
+
+lb-cli create ProjectName (项目名称)
+
+lbc create ProjectName(项目名称)
+~~~
+
+进入项目并启动
+~~~
+cd ProjectName      // 进入项目
+yarn or npm install // 安装依赖
+npm run start       // 启动项目
+~~~
 
 
